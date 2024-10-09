@@ -1,0 +1,77 @@
+﻿@page "/Euler21"
+
+<PageTitle>Euler 21</PageTitle>
+
+<h1>Solvation of Euler 21 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+         public static long answer()
+        {
+            int limit = 10000;
+            int sumOfAmicableNumbers = 0;
+
+            for (int a = 1; a &lt limit; a++)
+            {
+                int b = SumOfDivisors(a);
+                if (b != a && SumOfDivisors(b) == a)
+                {
+                    sumOfAmicableNumbers += a;
+                }
+            }
+
+            return sumOfAmicableNumbers;
+            int SumOfDivisors(int n)
+            {
+                int sum = 0;
+                for (int i = 1; i &lt= n / 2; i++)
+                {
+                    if (n % i == 0)
+                    {
+                        sum += i;
+                    }
+                }
+                return sum;
+            }
+
+
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).
+
+If d(a) = b and d(b) = a, where a ≠ b, then a and b are an amicable pair and each of a and b are called amicable numbers.
+
+For example, the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 22, 44, 55, and 110. Their sum is 284. The proper divisors of 284 are 1, 2, 4, 71, and 142, and their sum is 220.
+
+Given the limit 10000, find the sum of all the amicable numbers under this limit.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler21 eul = new Euler21(desc);
+        ans = eul.ToString("D", null);
+    }
+}

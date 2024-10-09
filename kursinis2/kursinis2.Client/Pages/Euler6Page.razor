@@ -1,0 +1,71 @@
+﻿@page "/Euler6"
+
+<PageTitle>Euler 6</PageTitle>
+
+<h1>Solvation of Euler 6 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            int n = 100;
+
+            long sumOfSquares, squareOfSum;
+
+            CalculateSumAndSquare(n, out sumOfSquares, out squareOfSum);
+
+            long difference = squareOfSum - sumOfSquares;
+
+            return difference;
+
+            //čia naudojamas out statement, kad išėjime gauti daugiau už 1 kintamajį
+            void CalculateSumAndSquare(int n, out long sumOfSquares, out long squareOfSum)
+            {                 
+                long sum = 0;
+                sumOfSquares = 0;
+
+                for (int i = 1; i &lt= n; i++)
+                {
+                    sumOfSquares += i * i; 
+                    sum += i;              
+                }
+                squareOfSum = sum * sum;
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"The sum of the squares of the first ten natural numbers is 12+22+⋯+102=3851 2 +2 2 +⋯+10 2 =385.
+The square of the sum of the first ten natural numbers is (1+2+⋯+10)2=552=3025(1+2+⋯+10) 2 =55 2 =3025. Hence, the difference between the square of the sum and the sum of the squares 
+is 3025−385=26403025−385=2640.Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler6 eul = new Euler6(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

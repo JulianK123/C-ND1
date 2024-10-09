@@ -1,0 +1,115 @@
+﻿@page "/Euler14"
+
+<PageTitle>Euler 14</PageTitle>
+
+<h1>Solvation of Euler 14 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+         public static long answer()
+        {
+
+            const int limit = 1000000;
+            long maxLength = 0;
+            long numberWithMaxLength = 0;
+
+            Dictionary&ltlong, long> collatzLengths = new Dictionary&ltlong, long>();
+
+            for (long i = 1; i &lt limit; i++)
+            {
+                long length = GetCollatzLength(i, collatzLengths);
+
+                if (length > maxLength)
+                {
+                    maxLength = length;
+                    numberWithMaxLength = i;
+                }
+            }
+            return numberWithMaxLength;
+
+            long GetCollatzLength(long n, Dictionary&ltlong, long> memo)
+            {
+                if (memo.ContainsKey(n))
+                {
+                    return memo[n];
+                }
+                if (n == 1)
+                {
+                    return 1;
+                }
+
+                long next;
+                if (n % 2 == 0)
+                {
+                    next = n / 2;
+                }
+                else
+                {
+                    next = 3 * n + 1;
+                }
+
+                long length = 1 + GetCollatzLength(next, memo);
+                memo[n] = length;
+
+                return length;
+            }
+
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"The following iterative sequence is defined for the set of positive integers:
+
+𝑛
+→
+𝑛
+/
+2
+n→n/2 (if
+𝑛
+n is even)
+𝑛
+→
+3
+𝑛
++
+1
+n→3n+1 (if
+𝑛
+n is odd)
+Using the rule above and starting with 13, we generate the following sequence: 13, 40, 20, 10, 5, 16, 8, 4, 2, 1. This sequence (starting at 13 and finishing at 1) contains 10 terms. Although it has not been proved yet (Collatz Problem), it is thought that all starting numbers finish at 1.
+
+Which starting number, under one million, produces the longest chain?
+
+Note: Once the chain starts the terms are allowed to go above one million.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler14 eul = new Euler14(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

@@ -1,0 +1,60 @@
+﻿@page "/Euler1"
+
+<PageTitle>Euler 1</PageTitle>
+
+<h1>Solvation of Euler 1 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>                                       
+     public static long answer()
+        {
+            int Accumulator = default;
+
+            for (int i = 3; i &lt 1000; i++)
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    Accumulator+= i;
+                }
+            }
+            
+            return Accumulator;
+        }             
+     </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"Multiples of 3 and 5
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6, and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.";
+    static string ans;
+
+    static void solve(){
+        Euler1 eul = new Euler1(desc);
+        ans = eul.ToString("D", null);
+    }
+
+    
+}

@@ -1,0 +1,108 @@
+﻿@page "/Euler17"
+
+<PageTitle>Euler 17</PageTitle>
+
+<h1>Solvation of Euler 17 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+         public static long answer()
+        {
+
+            int totalLetterCount = 0;
+
+            for (int i = 1; i &lt= 1000; i++)
+            {
+                string word = NumberToWords(i);
+                totalLetterCount += CountLetters(word);
+            }
+            return totalLetterCount;
+
+            string NumberToWords(int number)
+            {
+                if (number == 1000) return "one thousand";
+
+                string[] ones = { "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+                string[] tens = { "", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
+
+                string words = "";
+
+                if (number >= 100)
+                {
+                    words += ones[number / 100] + " hundred";
+                    if (number % 100 != 0)
+                    {
+                        words += " and ";
+                    }
+                }
+
+                number %= 100;
+
+                if (number &lt 20)
+                {
+                    words += ones[number];
+                }
+                else
+                {
+                    words += tens[number / 10];
+                    if (number % 10 != 0)
+                    {
+                        words += "-" + ones[number % 10];
+                    }
+                }
+
+                return words.Trim();
+            }
+
+            static int CountLetters(string word)
+            {
+                int letterCount = 0;
+                foreach (char c in word)
+                {
+                    if (char.IsLetter(c))
+                    {
+                        letterCount++;
+                    }
+                }
+                return letterCount;
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
+
+If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
+
+Note: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of 'and' when writing out numbers is in compliance with British usage.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler17 eul = new Euler17(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

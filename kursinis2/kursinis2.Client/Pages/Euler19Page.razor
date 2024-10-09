@@ -1,0 +1,98 @@
+﻿@page "/Euler19"
+
+<PageTitle>Euler 19</PageTitle>
+
+<h1>Solvation of Euler 19 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            int sundaysOnFirst = 0;
+
+            int dayOfWeek = 2;
+            int startYear = 1901;
+            int endYear = 2000;
+
+            int[] daysInMonth = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+            for (int year = startYear; year &lt= endYear; year++)
+            {
+                for (int month = 0; month &lt 12; month++)
+                {
+                    if (dayOfWeek == 0)
+                    {
+                        sundaysOnFirst++;
+                    }
+
+                    dayOfWeek += daysInMonth[month];
+
+                    if (month == 1 && IsLeapYear(year))
+                    {
+                        dayOfWeek++;
+                    }
+
+                    dayOfWeek %= 7;
+                }
+            }
+            return sundaysOnFirst;
+
+            bool IsLeapYear(int year)
+            {
+                if (year % 4 == 0)
+                {
+                    if (year % 100 == 0)
+                    {
+                        return year % 400 == 0;
+                    }
+                    return true;
+                }
+                return false;
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"You are given the following information, but you may prefer to do some research for yourself.
+
+- 1 Jan 1900 was a Monday.
+- Thirty days has September,
+  April, June, and November.
+- All the rest have thirty-one,
+  Saving February alone,
+  Which has twenty-eight, rain or shine.
+  And on leap years, twenty-nine.
+- A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
+
+How many Sundays fell on the first of the month in the twentieth century (1 Jan 1901 to 31 Dec 2000)?";
+    static string ans;
+
+    static void solve()
+    {
+        Euler19 eul = new Euler19(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

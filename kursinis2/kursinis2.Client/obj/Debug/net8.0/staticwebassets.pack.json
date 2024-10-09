@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\obj\\Debug\\net8.0\\compressed\\rn8b925v65.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\kursinis2.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\kursinis2.Client.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.kursinis2.Client.props",
+      "PackagePath": "build\\kursinis2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.kursinis2.Client.props",
+      "PackagePath": "buildMultiTargeting\\kursinis2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.kursinis2.Client.props",
+      "PackagePath": "buildTransitive\\kursinis2.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.kursinis2.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

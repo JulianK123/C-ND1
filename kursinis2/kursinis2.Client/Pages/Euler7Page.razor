@@ -1,0 +1,76 @@
+﻿@page "/Euler7"
+
+<PageTitle>Euler 7</PageTitle>
+
+<h1>Solvation of Euler 7 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+         public static long answer()
+        {
+            int targetPrimeIndex = 10001;
+            int primeCount = 1;
+            int number = 1;
+
+            while (primeCount &lt targetPrimeIndex)
+            {
+                number += 2;
+
+                if (IsPrime(number))
+                {
+                    primeCount++;
+                }
+            }
+            return number;
+
+            static bool IsPrime(int number)
+            {
+                if (number == 2) return true;
+
+                //tikriname ar number is a prime naudojant bitinę operaciją 0.5b
+                if ((number & 1) == 0) return false;
+
+                for (int i = 3; i &lt= Math.Sqrt(number); i += 2)
+                {
+                    if (number % i == 0) return false;
+                }
+                return true; 
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+What is the 10,001st prime number?";
+    static string ans;
+
+    static void solve()
+    {
+        Euler7 eul = new Euler7(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

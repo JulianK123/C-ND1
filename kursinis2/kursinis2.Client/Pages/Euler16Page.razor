@@ -1,0 +1,56 @@
+﻿@page "/Euler16"
+
+<PageTitle>Euler 16</PageTitle>
+
+<h1>Solvation of Euler 16 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            BigInteger number = BigInteger.Pow(2, 1000);
+
+            string numberString = number.ToString();
+
+            int sumOfDigits = 0;
+            foreach (char digit in numberString)
+            {
+                sumOfDigits += (int)char.GetNumericValue(digit);
+            }
+            return sumOfDigits;
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"Power Digit Sum: 2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26. What is the sum of the digits of the number 2^1000?";
+    static string ans;
+
+    static void solve()
+    {
+        Euler16 eul = new Euler16(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

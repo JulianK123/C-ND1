@@ -1,0 +1,793 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\julia\\source\\repos\\kursinis2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler15page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler15page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler12page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler12page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B9B1FA-46E5-4EC7-955E-AD13BE16DA4B}|kursinis2\\kursinis2\\kursinis2.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B9B1FA-46E5-4EC7-955E-AD13BE16DA4B}|kursinis2\\kursinis2\\kursinis2.csproj|solutionrelative:kursinis2\\kursinis2\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler22.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\eulerformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\eulerformat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\eulerinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\eulerinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler23page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler23page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler22page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler22page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler23.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler21page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler21page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler20page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler20page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler21.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler19page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler19page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler18page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler18page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler18.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler18.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler17page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler17page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler16page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler16page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler14page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler14page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler1page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler1page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler10page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler10page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler9page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler9page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler8page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler8page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler7page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler7page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler6page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler6page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler5page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler5page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler4page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler4page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler3page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler3page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\pages\\euler2page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\pages\\euler2page.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\euler\\euler5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\euler\\euler5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|c:\\users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6495490-51C7-4904-BCC6-9D3D67E6F97D}|kursinis2\\kursinis2.Client\\kursinis2.Client.csproj|solutionrelative:kursinis2\\kursinis2.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2\\wwwroot\\app.css",
+              "RelativeToolTip": "kursinis2\\kursinis2\\wwwroot\\app.css",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-03T19:36:02.725Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Euler22Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler22Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler22Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler22Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler22Page.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:45:00.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Euler23.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler23.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler23.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler23.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler23.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:43:34.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EulerFormat.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\EulerFormat.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\EulerFormat.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\EulerFormat.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\EulerFormat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:55:05.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EulerInterface.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\EulerInterface.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\EulerInterface.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\EulerInterface.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\EulerInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:55:09.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Euler1.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler1.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler1.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler1.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:51:56.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Euler15.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler15.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler15.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler15.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler15.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:25:22.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Euler17.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler17.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler17.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler17.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler17.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:25:31.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Euler2.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler2.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler2.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler2.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:32:17.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Euler4.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler4.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler4.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler4.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:50:49.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Euler6.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler6.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler6.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler6.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:23:44.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Euler12Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler12Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler12Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler12Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler12Page.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAADwv2wAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:26:02.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Euler15Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler15Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler15Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler15Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler15Page.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:26:22.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Euler22.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler22.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler22.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler22.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler22.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:43:29.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Euler23Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler23Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler23Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler23Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler23Page.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwv18AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:45:09.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Euler21Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler21Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler21Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler21Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler21Page.razor",
+              "ViewState": "AgIAACYAAAAAAAAAAADwv0QAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:44:53.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Euler21.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler21.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler21.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler21.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler21.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:43:10.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Euler20.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler20.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler20.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler20.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler20.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA0wDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:43:05.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Euler19.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler19.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler19.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler19.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler19.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:43:00.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Euler20Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler20Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler20Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler20Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler20Page.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAADgvxQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:44:43.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Euler18Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler18Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler18Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler18Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler18Page.razor",
+              "ViewState": "AgIAACgAAAAAAAAAAADwv1gAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:43:59.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Euler19Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler19Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler19Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler19Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler19Page.razor",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv1cAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:44:35.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Euler18.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler18.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler18.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler18.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler18.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:42:55.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwHgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T19:17:49.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Euler17Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler17Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler17Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler17Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler17Page.razor",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAGEAAACwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:26:37.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Euler16Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler16Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler16Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler16Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler16Page.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:26:31.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Euler14Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler14Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler14Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler14Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler14Page.razor",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv2gAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T10:26:13.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Euler12.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler12.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler12.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler12.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler12.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:24:48.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Euler14.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler14.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler14.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler14.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler14.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:24:52.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Euler16.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler16.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler16.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler16.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler16.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:25:26.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Euler1Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler1Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler1Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler1Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler1Page.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T19:09:38.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Euler10Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler10Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler10Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler10Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler10Page.razor",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv0kAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:25:01.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Euler8Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler8Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler8Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler8Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler8Page.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:24:44.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Euler7Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler7Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler7Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler7Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler7Page.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvywAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:24:34.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Euler6Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler6Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler6Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler6Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler6Page.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:24:13.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Euler9.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler9.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler9.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler9.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler9.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:23:53.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Euler5Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler5Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler5Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler5Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler5Page.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T20:51:42.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Euler8.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler8.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler8.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler8.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler8.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:23:49.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Euler9Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler9Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler9Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler9Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler9Page.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-04T09:24:53.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Euler7.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler7.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler7.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler7.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler7.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:23:47.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Euler10.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler10.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler10.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler10.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler10.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T09:23:35.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Euler5.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler5.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler5.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler5.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler5.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:50:57.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Euler3Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler3Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler3Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler3Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler3Page.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvz4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T20:42:19.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Euler3.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler3.cs",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Euler\\Euler3.cs",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Euler\\Euler3.cs",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Euler\\Euler3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:41:49.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Euler2Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler2Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler2Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler2Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler2Page.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAADwv0MAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T20:31:31.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Home.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T18:50:38.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Euler4Page.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler4Page.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\Pages\\Euler4Page.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\Pages\\Euler4Page.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\Pages\\Euler4Page.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAADwv0IAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T20:51:26.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "kursinis2\\kursinis2.Client\\_Imports.razor",
+              "ToolTip": "C:\\Users\\julia\\source\\repos\\kursinis2\\kursinis2\\kursinis2.Client\\_Imports.razor",
+              "RelativeToolTip": "kursinis2\\kursinis2.Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T18:53:14.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

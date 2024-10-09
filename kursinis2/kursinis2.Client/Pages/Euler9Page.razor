@@ -1,0 +1,70 @@
+﻿@page "/Euler9"
+
+<PageTitle>Euler 9</PageTitle>
+
+<h1>Solvation of Euler 9 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            int targetSum = 1000;
+            (int a, int b, int c) = FindPythagoreanTriplet(targetSum);
+
+            long product = a * b * c;
+            return product;
+            
+            (int, int, int) FindPythagoreanTriplet(int targetSum)
+            {
+                for (int a = 1; a &lt targetSum / 3; a++)
+                {
+                    for (int b = a + 1; b &lt targetSum / 2; b++)
+                    {
+                        int c = targetSum - a - b;
+
+                        if (a * a + b * b == c * c)
+                        {
+                            return (a, b, c);
+                        }
+                    }
+                }
+                return (0, 0, 0); 
+            }
+
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"A Pythagorean triplet is a set of three natural numbers, 𝑎<𝑏<𝑐a<b<c, for which 𝑎2+𝑏2=𝑐2a 2 +b 2 =c 2 . For example, 32+42=9+16=25=523 2 +4 2 =9+16=25=5 2 .
+There exists exactly one Pythagorean triplet for which 𝑎+𝑏+𝑐=1000a+b+c=1000. Find the product 𝑎𝑏𝑐abc.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler9 eul = new Euler9(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

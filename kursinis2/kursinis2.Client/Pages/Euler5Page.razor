@@ -1,0 +1,101 @@
+﻿@page "/Euler5"
+
+<PageTitle>Euler 5</PageTitle>
+
+<h1>Solvation of Euler 5 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            return FindSmallestMultiple(1, 20);
+
+             int FindSmallestMultiple(int start, int end)
+            {
+                
+                int[] numbers = CreateRange(start, end);
+
+                
+                return CalculateLCMRange(numbers);
+            }
+
+             int[] CreateRange(int start, int end)
+            {
+                int[] range = new int[end - start + 1];
+                for (int i = 0; i &lt range.Length; i++)
+                {
+                    range[i] = start + i;
+                }
+                return range;
+            }
+
+            //čia naudojamas params, kad galėtume įrašyti betkokį kintamujų kiekį (0,5b)
+            int CalculateLCMRange(params int[] numbers)
+            {
+                long lcm = 1; 
+
+                foreach (var number in numbers)
+                {
+                    
+                    lcm = LCM(lcm, number);
+                }
+
+                return (int)lcm;
+            }
+
+             long LCM(long a, long b)
+            {
+                return (a * b) / GCD(a, b);  
+            }
+
+             long GCD(long a, long b)
+            {
+                while (b != 0)
+                {
+                    long temp = b;
+                    b = a % b;
+                    a = temp;
+                }
+                return a;
+            }
+
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+";
+    static string ans;
+
+    static void solve()
+    {
+        Euler5 eul = new Euler5(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

@@ -1,0 +1,84 @@
+﻿@page "/Euler10"
+
+<PageTitle>Euler 10</PageTitle>
+
+<h1>Solvation of Euler 10 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            long limit = 2000000;
+            long sumOfPrimes = SumOfPrimes(limit);
+            return sumOfPrimes;
+
+            long SumOfPrimes(long limit)
+            {
+                bool[] isPrime = new bool[limit];
+                long sum = 0;
+
+                for (long i = 2; i &lt limit; i++)
+                {
+                    isPrime[i] = true;
+                }
+
+                for (long p = 2; p * p &lt limit; p++)
+                {
+                    if (isPrime[p])
+                    {
+                        for (long multiple = p * p; multiple &lt limit; multiple += p)
+                        {
+                            isPrime[multiple] = false;
+                        }
+                    }
+                }
+
+                for (long i = 2; i &lt limit; i++)
+                {
+                    if (isPrime[i])
+                    {
+                        sum += i;
+                    }
+                }
+
+                return sum;
+            }
+
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+Find the sum of all the primes below two million.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler10 eul = new Euler10(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

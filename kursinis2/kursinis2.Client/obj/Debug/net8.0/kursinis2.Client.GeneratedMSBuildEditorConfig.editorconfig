@@ -1,0 +1,135 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = kursinis2.Client
+build_property.RootNamespace = kursinis2.Client
+build_property.ProjectDir = C:\Users\julia\source\repos\kursinis2\kursinis2\kursinis2.Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\julia\source\repos\kursinis2\kursinis2\kursinis2.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler10Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxMFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler12Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxMlBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler14Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxNFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler15Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxNVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler16Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxNlBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler17Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxN1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler18Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxOFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler19Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxOVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler1Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIxUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler20Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIyMFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler21Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIyMVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler22Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIyMlBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler23Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIyM1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler2Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIyUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler3Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXIzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler4Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXI0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler5Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXI1UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler6Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXI2UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler7Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXI3UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler8Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXI4UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Euler9Page.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXVsZXI5UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dj4c67sboy
+
+[C:/Users/julia/source/repos/kursinis2/kursinis2/kursinis2.Client/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-r5d10pjaf0

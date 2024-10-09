@@ -1,0 +1,72 @@
+﻿@page "/Euler4"
+
+<PageTitle>Euler 4</PageTitle>
+
+<h1>Solvation of Euler 4 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+         public static long answer()
+        {
+            int largestPalindrome = 0;
+
+            //Range tipas 0.5
+            foreach (var i in Enumerable.Range(100, 900))
+            {
+                foreach (var j in Enumerable.Range(100, 900))
+                {
+                    int product = i * j;
+                    if (IsPalindrome(product) && product > largestPalindrome)
+                    {
+                        largestPalindrome = product;
+                    }
+                }
+            }
+
+            return largestPalindrome;
+        }
+
+        private static bool IsPalindrome(int number)
+        {
+            string str = number.ToString();
+            return str == new string(str.Reverse().ToArray());
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"A palindromic number reads the same both ways. The largest palindromic number made from the product of two 2-digit numbers is 9009 (91 × 99).
+
+Find the largest palindrome made from the product of two 3-digit numbers.
+
+";
+    static string ans;
+
+    static void solve()
+    {
+        Euler4 eul = new Euler4(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

@@ -1,0 +1,63 @@
+﻿@page "/Euler15"
+
+<PageTitle>Euler 15</PageTitle>
+
+<h1>Solvation of Euler 15 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            int gridSize = 20;
+            long numberOfPaths = CalculatePaths(gridSize);
+            return numberOfPaths;
+
+            long CalculatePaths(int n)
+            {
+                long result = 1;
+
+                for (int i = 0; i &lt n; i++)
+                {
+                    result = result * (2 * n - i) / (i + 1);
+                }
+
+                return result;
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"Starting in the top left corner of a 2×2 grid, there are 6 routes (without backtracking) to the bottom right corner.
+
+How many such routes are there through a 20×20 grid?";
+    static string ans;
+
+    static void solve()
+    {
+        Euler15 eul = new Euler15(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

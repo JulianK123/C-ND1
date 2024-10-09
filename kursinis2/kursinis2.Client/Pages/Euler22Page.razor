@@ -1,0 +1,73 @@
+﻿@page "/Euler22"
+
+<PageTitle>Euler 22</PageTitle>
+
+<h1>Solvation of Euler 22 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            string namesInput = "\"MARY\",\"JOHN\",\"PETER\",\"COLIN\",\"JANE\",\"ANNA\",\"BETH\"";
+
+            string[] names = namesInput.Split(',')
+                                        .Select(name => name.Trim('"'))
+                                        .ToArray();
+
+            Array.Sort(names);
+
+            long totalScore = 0;
+
+            for (int i = 0; i &lt names.Length; i++)
+            {
+                int nameScore = CalculateNameScore(names[i]);
+                totalScore += nameScore * (i + 1); 
+            }
+
+            return totalScore;
+
+          
+            int CalculateNameScore(string name)
+            {
+                return name.Sum(c => c - 'A' + 1); 
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"Using names.txt (a file containing over five thousand first names), begin by sorting it into alphabetical order. Then working out the alphabetical value for each name, multiply this value by its alphabetical position in the list to obtain a name score.
+
+For example, when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53, is in position 938. Therefore, COLIN's score is 938 × 53 = 49714.
+
+What is the total of all the name scores in the file?";
+    static string ans;
+
+    static void solve()
+    {
+        Euler22 eul = new Euler22(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

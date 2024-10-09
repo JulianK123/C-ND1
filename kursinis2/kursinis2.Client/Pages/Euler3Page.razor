@@ -1,0 +1,68 @@
+﻿@page "/Euler3"
+
+<PageTitle>Euler 3</PageTitle>
+
+<h1>Solvation of Euler 3 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+         public static long answer()
+        {
+            long number = 600851475143;
+            long largestPrimeFactor = 0;
+
+            
+            for (long i = 2; i * i &lt= number; i++)
+            {
+           
+                while (number % i == 0)
+                {
+                    largestPrimeFactor = i;
+                    number /= i; 
+                }
+            }
+
+            if (number > 2)
+            {
+                largestPrimeFactor = number;
+            }
+
+            return largestPrimeFactor;
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"The prime factors of 13195 are 5, 7, 13, and 29.
+
+What is the largest prime factor of the number 600851475143?";
+    static string ans;
+
+    static void solve()
+    {
+        Euler3 eul = new Euler3(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}

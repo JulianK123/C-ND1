@@ -1,0 +1,106 @@
+﻿@page "/Euler23"
+
+<PageTitle>Euler 23</PageTitle>
+
+<h1>Solvation of Euler 23 problem</h1>
+<br>
+<h3>Description:</h3>
+
+<div class="description col-12">
+    <p>
+        @desc
+    </p>
+</div>
+
+<h3>Code:</h3>
+
+<div class="code col-12">
+    <p>
+        public static long answer()
+        {
+            const int limit = 28123;
+            List&ltint> abundantNumbers = new List&ltint>();
+
+            for (int i = 1; i &lt limit; i++)
+            {
+                if (IsAbundant(i))
+                {
+                    abundantNumbers.Add(i);
+                }
+            }
+
+            bool[] canBeWrittenAsAbundantSum = new bool[limit + 1];
+
+            for (int i = 0; i &lt abundantNumbers.Count; i++)
+            {
+                for (int j = i; j &lt abundantNumbers.Count; j++)
+                {
+                    int sum = abundantNumbers[i] + abundantNumbers[j];
+                    if (sum &lt= limit)
+                    {
+                        canBeWrittenAsAbundantSum[sum] = true;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+
+            long totalSum = 0;
+            for (int i = 1; i &lt= limit; i++)
+            {
+                if (!canBeWrittenAsAbundantSum[i])
+                {
+                    totalSum += i;
+                }
+            }
+
+            return totalSum;
+
+            bool IsAbundant(int n)
+            {
+                int sumOfDivisors = 0;
+                for (int i = 1; i &lt= n / 2; i++)
+                {
+                    if (n % i == 0)
+                    {
+                        sumOfDivisors += i;
+                    }
+                }
+                return sumOfDivisors > n;
+            }
+        }
+    </p>
+</div>
+
+<h3>Answer:</h3>
+
+<div class="col-12 answer">
+    <p class="text-black">@ans</p>
+</div>
+
+<button class="btn btn-success btn-lg" @onclick="solve">Solve</button>
+
+
+@code
+{
+    static string desc = @"A perfect number is a positive integer that is equal to the sum of its proper divisors. For example, the proper divisors of 28 are 1, 2, 4, 7, and 14, which sum to 28.
+
+An abundant number is a number for which the sum of its proper divisors is greater than the number itself. For example, the proper divisors of 12 are 1, 2, 3, 4, and 6. Thus, the sum is 16, which is greater than 12, making it an abundant number.
+
+Now consider the smallest abundant number, 12. By using this number, we can generate a list of abundant numbers: 12, 18, 20, 24, 30, 36, 40, 42, 48, 54, 56, 60, 66, 70, 72, 78, 80, 84, 88, 90, 96, etc.
+
+It can be shown that all integers greater than 28123 can be written as the sum of two abundant numbers. However, this is not true for smaller numbers, and the smallest number that cannot be written as the sum of two abundant numbers is 28123.
+
+Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.";
+    static string ans;
+
+    static void solve()
+    {
+        Euler23 eul = new Euler23(desc);
+        ans = eul.ToString("D", null);
+    }
+
+
+}
